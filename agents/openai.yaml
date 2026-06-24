@@ -1,0 +1,7 @@
+interface:
+  display_name: "C# Industrial Software"
+  short_description: "C#/.NET 上位机、视觉、设备通信、复检平台开发规范"
+  brand_color: "#2563EB"
+  default_prompt: "使用 csharp-industrial-software skill，按工业上位机/视觉/设备通信项目规范完成任务。"
+policy:
+  allow_implicit_invocation: true
