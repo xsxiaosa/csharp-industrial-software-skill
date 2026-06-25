@@ -54,7 +54,7 @@ Load references on demand. Do not preload all references.
 |---|---|
 | Solution layout, project boundaries, dependency direction | `references/csharp-solution-architecture.md` |
 | Preferred packages and default technology choices | `references/preferred-libraries.md` |
-| WPF/Avalonia MVVM, commands, validation, messenger, DI | `references/wpf-avalonia-mvvm.md` |
+| WPF/Avalonia MVVM, commands, validation, messenger, DI (core rules) | `references/wpf-avalonia-mvvm.md` → loads `mvvm-property-command-patterns.md` / `mvvm-validation-messenger-di.md` on demand |
 | Industrial image display and 20MB-level image handling | `references/image-display.md` |
 | Device interfaces, states, scanner/camera records, PLC handshake | `references/industrial-device-abstractions.md` |
 | Camera/PLC/scanner/robot communication checklist | `references/device-communication-checklist.md` |
@@ -64,6 +64,7 @@ Load references on demand. Do not preload all references.
 | Windows/Linux/Docker deployment rules | `references/deployment.md` |
 | Validation commands and review checklist | `references/testing-and-review.md` |
 | Common response shapes for plans, code, scripts, debugging | `references/response-formats.md` |
+| Installing this skill into Claude Code / Codex / opencode | `references/install-guide.md` |
 | Copyable ViewModel template | `references/code-templates/camera-panel-viewmodel.md` |
 | Copyable device interface template | `references/code-templates/industrial-device-interfaces.md` |
 | Copyable Docker healthcheck template | `references/code-templates/docker-compose-healthcheck.md` |
